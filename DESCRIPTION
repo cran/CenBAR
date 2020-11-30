@@ -2,8 +2,8 @@ Package: CenBAR
 Type: Package
 Imports: MASS, mvtnorm, glmnet, splines, survival, cvTools
 Depends: foreach, parallel
-Title: Broken Adaptive Ridge Estimator for Censored Data in AFT Model
-Version: 0.1.0
+Title: Broken Adaptive Ridge AFT Model with Censored Data
+Version: 0.1.1
 Authors@R: c(person("Zhihua", "Sun", role = c("aut", "cre"), email = "zhihuasun@ouc.edu.cn"),
               person("Chunyu", "Yu", role = "aut"),
               person("Gang", "Li", role = "aut"),
@@ -16,7 +16,7 @@ Description: Broken adaptive ridge estimator for censored data is used to
 License: GPL-2
 RoxygenNote: 7.0.2
 NeedsCompilation: no
-Packaged: 2020-02-19 13:48:03 UTC; zhihu
+Packaged: 2020-11-30 12:31:55 UTC; zhihu
 Author: Zhihua Sun [aut, cre],
   Chunyu Yu [aut],
   Gang Li [aut],
@@ -24,4 +24,4 @@ Author: Zhihua Sun [aut, cre],
   Yi Liu [ctb]
 Maintainer: Zhihua Sun <zhihuasun@ouc.edu.cn>
 Repository: CRAN
-Date/Publication: 2020-02-26 15:50:16 UTC
+Date/Publication: 2020-11-30 13:10:08 UTC
